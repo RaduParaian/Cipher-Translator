@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- include main.js -->
+    <script src="./js/main.js"></script>
+    <!-- include style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- include font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="" image/png" href="puclic/favicon.png">
+    <title>Cipher Translator</title>
+</head>
+
+<body>
+
+    <div id="content" class="container">
+        <div class="title">
+            <!-- text -->
+            <h1 id="title">Cipher Translator</h1>
+            <p id="paragraph">Type a message and use the buttons to encrypt or decrypt your text!</p>
+            <!-- dropdown -->
+            <select id="key-select">
+                <option value="1">Japan</option>
+                <option value="2">Shuffle</option>
+            </select>
+        </div>
+        <div class="swap-container">
+            <button id="swap-go" class="swap-go">Light</i></button>
+        </div>
+
+        <div id="user">
+
+            <!-- encryption -->
+            <div id="encrypt">
+                <div>
+                    <textarea rows="5" cols="50" id="encrypt-message" placeholder="Enter a message"></textarea>
+                </div>
+                <div>
+                    <button id="encrypt-go">Encrypt</button>
+                </div>
+                <div>
+                    <textarea rows="5" cols="50" id="encrypt-response" placeholder="Response"></textarea>
+                </div>
+                <!-- copy button -->
+                <div id="copy">
+                    <div>
+                        <button id="copy-go">Copy</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- decryption -->
+            <div id="decrypt">
+                <div>
+                    <textarea rows="5" cols="50" id="decrypt-message" placeholder="Enter a message"></textarea>
+                </div>
+                <div>
+                    <button id="decrypt-go">Decrypt</button>
+                </div>
+                <div>
+                    <textarea rows="5" cols="50" id="decrypt-response" placeholder="Response"></textarea>
+                </div>
+                <!-- paste button -->
+                <div id="paste">
+                    <div>
+                        <button id="paste-go">Paste</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

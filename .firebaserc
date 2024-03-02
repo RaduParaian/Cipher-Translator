@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "swifter-hub-dev"
+  },
+  "targets": {
+    "swifter-hub-dev": {
+      "hosting": {
+        "ciphertranslator": [
+          "ciphertranslator"
+        ]
+      }
+    }
+  }
+}

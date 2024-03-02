@@ -1,0 +1,250 @@
+/* Base */
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 10px 0;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0 45px 0;
+}
+
+#key-select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+div {
+  text-align: center;
+  padding: 10px;
+}
+
+textarea {
+  width: 80%;
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#encrypt {
+  width: 40%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#decrypt {
+  width: 40%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+button {
+  width: 125px;
+  height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+button:active {
+  transform: scale(.9);
+}
+
+/* Cycle */
+.container {
+  height: 100vh;
+  background: #ffffff;
+  transition: background-color 1.2s;
+  padding: 0;
+}
+
+.container.dark {
+  height: 100vh;
+  background: #313238;
+  padding: 0;
+}
+
+.swap-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+}
+
+.swap-go {
+  width: 130px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  line-height: 1.5em;
+}
+
+/* Light */
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #06061e;
+}
+
+p {
+  color: #06061e;
+}
+
+#key-select {
+  color: #ebedef;
+  background-color: #313238;
+}
+
+textarea {
+  color: #313238;
+  background-color: #ebedef;
+}
+
+button {
+  color: #ebedef;
+  background-color: #313238;
+}
+
+#encrypt-go:hover {
+  color: #383840;
+  background-color: #d6ffbe;
+}
+
+#encrypt-go:active {
+  color: #383840;
+  background-color: #a0ff69;
+}
+
+#decrypt-go:hover {
+  color: #383840;
+  background-color: #ffa6a9;
+}
+
+#decrypt-go:active {
+  color: #383840;
+  background-color: #ff7377;
+}
+
+#copy-go:hover {
+  color: #383840;
+  background-color: #A8D8FF;
+}
+
+#copy-go:active {
+  color: #383840;
+  background-color: #2079ff;
+}
+
+#paste-go:hover {
+  color: #383840;
+  background-color: #A8D8FF;
+}
+
+#paste-go:active {
+  color: #383840;
+  background-color: #2079ff;
+}
+
+#swap-go {
+  color: #ebedef;
+  background-color: #313238;
+}
+
+#swap-go:hover {
+  color: #383840;
+  background-color: #dbdde1;
+}
+
+/* Dark */
+body.dark {
+  background-color: #313238;
+}
+
+h1.dark {
+  color: #f2f3f5;
+}
+
+p.dark {
+  color: #f2f3f5;
+}
+
+#key-select.dark {
+  color: #383840;
+  background-color: #dbdde1;
+}
+
+textarea.dark {
+  color: #d1d3d7;
+  background-color: #383840;
+}
+
+button.dark {
+  color: #383840;
+  background-color: #dbdde1;
+}
+
+#encrypt-go:hover.dark {
+  background-color: #d6ffbe;
+}
+
+#encrypt-go:active.dark {
+  background-color: #a0ff69;
+}
+
+#decrypt-go:hover.dark {
+  background-color: #ffa6a9;
+}
+
+#decrypt-go:active.dark {
+  background-color: #ff7377;
+}
+
+#copy-go:hover.dark {
+  background-color: #A8D8FF;
+}
+
+#copy-go:active.dark {
+  background-color: #2079ff;
+}
+
+#paste-go:hover.dark {
+  background-color: #A8D8FF;
+}
+
+#paste-go:active.dark {
+  background-color: #2079ff;
+}
+
+#swap-go.dark {
+  color: #383840;
+  background-color: #dbdde1;
+}
+
+#swap-go:hover.dark {
+  color: #dbdde1;
+  background-color: #383840;
+}
